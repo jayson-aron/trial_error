@@ -11,7 +11,7 @@ public class FizzBuzzTest {
     public void notDivisibleBy3or5() {
         za.co.wethinkcode.fizzbuzz.FizzBuzz fizzBuzz = new za.co.wethinkcode.fizzbuzz.FizzBuzz();
         String result = fizzBuzz.checkNumber(13);
-        assertEquals("13", result);
+        assertEquals("1", result);
     }
 
     @Test
